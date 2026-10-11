@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	width: 700px;
+	margin: 0 auto;
+	border: 1px solid steelblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	background-color: #ffffff;
+}
+
+
+a {
+    font-weight: bold;
+}
+
+
+
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 20px;
+	background: linear-gradient(to bottom, white, lightsteelblue);
+	border-bottom: 2px solid steelblue;
+}
+
+
+
+
+header img {
+    height: 60px;
+    width: auto;
+}
+
+
+
+header h1 {
+    font-size: 2.2em;
+    color: steelblue;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+
+
+
+header h2 {
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+
+
+
+main {
+	padding: 20px;
+}
+
+
+
+section h2 {
+	font-size: 1.5em;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+section h3 {
+	font-size: 1.1em;
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+}
+
+
+section p {
+	line-height: 1.4;
+	margin-bottom: 10px;
+}
+
+
+
+section a:link,
+section a:visited {
+    color: maroon;
+}
+
+
+section a:hover,
+section a:focus {
+    color: steelblue;
+}
+
+
+aside {
+	border: 2px solid steelblue;
+	border-radius: 15px;
+	padding: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+
+
+
+aside h2 {
+    color: maroon;
+    font-size: 1.3em;
+    margin-bottom: 12px;
+}
+
+
+
+aside ul {
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+
+aside a:link,
+aside a:visited {
+    color: steelblue;
+}
+
+
+aside a:hover,
+aside a:focus {
+    color: maroon;
+}
+
+/* Footer style*/
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: steelblue;
+    color: white;
+    padding-top: 12px 0;
+}
